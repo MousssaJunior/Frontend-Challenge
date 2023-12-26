@@ -1,2 +1,100 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  background-color: rgba(52, 50, 50, 0.663);
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  font-size: xxx-large;
+  font-weight: 600;
+}
+/**---------------FLEXBOX---------------------------**/
+.small {
+  font-size: small;
+}
+.d-flex {
+  display: flex;
+}
+
+.opacity {
+  opacity: 0.1;
+}
+.opa-five {
+  opacity: 0.5;
+}
+
+.smaller {
+  font-size: smaller;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.small-gap {
+  gap: 20px;
+}
+
+.big-gab {
+  gap: 20px;
+}
+
+.shadow {
+  box-shadow: 5px 5px 15px gray;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.center {
+  justify-content: center;
+}
+.inline {
+  display: inline;
+}
+.underline {
+  text-decoration: underline;
+}
+/* SING UP */
+#all {
+  background-color: white;
+  border-radius: 4vh;
+  width: 134vh;
+}
+#all img {
+  margin: 2vh 2vh 2vh 0vh;
+}
+
+#sign-up {
+  margin: 8vh;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#email {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  border-radius: 1vh;
+  padding: 2vh;
+  border: solid rgba(0, 0, 0, 0.1);
+  width: 50vh;
+}
+#btn {
+  padding: 2vh;
+  border-radius: 1vh;
+  width: 54.5vh;
+  background-color: rgb(24, 24, 103);
+  color: white;
+  border: none;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
