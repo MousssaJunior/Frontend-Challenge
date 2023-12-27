@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
   background-color: rgba(52, 50, 50, 0.663);
+  font-family: 'Roboto', sans-serif;
   display: grid;
   justify-content: center;
 }
 
 h1 {
   font-size: xxx-large;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 /**---------------FLEXBOX---------------------------**/
 .small {
@@ -62,7 +71,7 @@ h1 {
   width: 134vh;
 }
 #all img {
-  margin: 2vh 2vh 2vh 0vh;
+  margin: 0vh 2vh 2vh 0vh;
 }
 
 #sign-up {
@@ -89,6 +98,36 @@ h1 {
   color: white;
   border: none;
 }
+.list h3{
+  margin-top: 0;
+}
+
+/* Success Message */
+#success{
+  background-color: white;
+  margin:2vh;
+  flex-wrap: wrap;
+  width: 30vh;
+  padding: 4vh;
+  border-radius: 3vh;
+
+}
+#success p{
+  font-size: xx-small;
+  margin-bottom: 1vh;
+
+}
+
+#success a{
+  background-color:red;
+  border-radius: 1vh;
+  margin-top: 3vh;
+  text-decoration: none;
+  padding: 1vh;
+
+  
+}
+
 
 /* FOOTER */
 .attribution {
